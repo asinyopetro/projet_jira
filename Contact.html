@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Sue+Ellen Francisco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <style>
+        .nav-link.active {
+           color: black !important;
+       }
+   
+   </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand mx-auto" href="home.html"><img src="img/vc1.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="home.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Àproposdenous.html">À propos de nous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Événement.html">Événement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="presentationdesartistes.html">Artistes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <button class="btn ml-3" style="background-color:#FF6D6D;" type="button">
+                        <a href="Partenariat.html" class="text-white" style="text-decoration: none;">Partenariat</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="col-12" style="border: 0.1px solid #f0f0f0; padding: 20px;">
+                    <div class="mb-3">
+                        <label for="nameInput" class="form-label">Nom*</label>
+                        <input type="text" class="form-control" style="background-color: #F5F5F5;" id="nameInput" placeholder="Entrez votre nom*">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneInput" class="form-label">Numéro de téléphone*</label>
+                        <input type="text" class="form-control" style="background-color: #F5F5F5;" id="phoneInput" placeholder="Numéro de téléphone*">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Adresse e-mail*</label>
+                        <input type="email" class="form-control" style="background-color: #F5F5F5;" id="emailInput" placeholder="Adresse e-mail*">
+                    </div>
+                    <div class="mb-3">
+                        <label for="messageTextarea" class="form-label">Votre message*</label>
+                        <textarea class="form-control" style="background-color: #F5F5F5;" id="messageTextarea" placeholder="Votre message*" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn rounded-pill" style="background-color: #2E4049; color: white;">Soumettre</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center align-items-center" style="background-image: url('img/20.jpg'); background-size: cover; background-position: center; height: 90vh;width: 100%; ">
+    
+                    <div class="text-center text-white">
+                        <h1 class="font-weight-bold fs-30">Entrer en Contact avec <br> nous</h1>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row d-flex justify-content-around py-5">
+                    <div class="col-5">
+                        <h6 style="color: red;">Contact</h6>
+                        <h1>Prenez contact avec nous</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima magnam,
+                             illo hic culpa autem? Sint aperiam facere qui, veniam voluptate,
+                             laborum illum aspernatur voluptatem ratione quas deserunt dolores doloribus?</p>
+                             <div class="d-flex align-items-center mt-3">
+                                <div class="fs-1" style="color: red;"><i class="ri-mail-line"></i></div>
+                                <div class="ms-3">
+                                    <p class="mb-0" >Massège</p>
+                                    <p class="mb-0">support@walfare.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="fs-1" style="color: red;"><i class="ri-phone-line"></i></div>
+                                <div class="ms-3">
+                                    <p class="mb-0" >Contactez-nous</p>
+                                    <p class="mb-0">+221 77 777 77 77</p>
+                                </div>
+                            </div>
+                            <h3>Suivez-nous sur les réseaux sociaux</h3>
+                            <p>Veniam quæ. Nostrum facere repellendus moins quod aut aliquam neque reiciendis.</p>
+                            <div class="fs-3">
+                                <i class="ri-instagram-line"></i>
+                                <i class="ri-facebook-circle-fill"></i>
+                                <i class="ri-twitter-fill"></i>
+                                <i class="ri-pinterest-fill"></i>
+                            </div>
+                    </div>
+                    <div class="col-5 " style="border: 0.1px solid #f0f0f0;">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" style="background-color: #F5F5F5;" id="exampleFormControlInput1" placeholder="Entrez votre nom*">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" style="background-color: #F5F5F5;" id="exampleFormControlInput1" placeholder="Numéro de téléphone*">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" style="background-color: #F5F5F5;" id="exampleFormControlInput1" placeholder="Adresse e-mail*">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea class="form-control" style="background-color: #F5F5F5;" id="exampleFormControlTextarea1" placeholder="Votre message*" rows="3"></textarea>
+                          </div> 
+                          <button type="button" class="btn rounded-pill" style="background-color: #2E4049; color: white;">Soumettre</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="col-5">
+                    <div class="row py-5" style="height: 400px; background-image: url(img/Background\ Image\ \(1\).png); background-size: cover;">
+                        <div class="container">
+                            <div class="row d-flex flex-column align-items-start">
+                                <div class="col-12 col-md-8 col-lg-6 mx-auto" style="margin-top: 50px;">
+                                    <h1 class="text-white fs-2 ">Des questions?</h1>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-6 py-4 fs-5 text-white mx-auto">
+                                    Nous sommes toujours là pour aider les personnes dans le besoin partout dans le monde
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-6 d-flex mx-auto">
+                                    <button class="btn rounded-pill text-white mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #2E4049;">
+                                        Envoyez votre question
+                                    </button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="accordion" id="accordionFAQ">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Qu'est-ce que Vitrine Culture ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Vitrine Culture est un projet visant à promouvoir les personnalités culturelles de Saint-Louis par des rencontres mensuelles avec le grand public.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Quand et où auront lieu les rencontres ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Les rencontres se tiendront tous les derniers samedis de chaque mois, initialement à l'espace culturel Saint-Louis Théâtre.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Comment participer aux événements ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Vous pouvez vous inscrire via le formulaire de contact sur notre site web.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Qui peut participer à ces rencontres ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Tous ceux intéressés par la culture et les arts à Saint-Louis sont les bienvenus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Comment les rencontres seront-elles diffusées ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Les rencontres seront diffusées en direct sur les réseaux sociaux de l'association E'leuk et sur d'autres plateformes partenaires.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Quel est le but principal de ce projet ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Mettre en lumière les talents culturels de Saint-Louis et démontrer les opportunités dans le secteur culturel.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        Comment puis-je devenir un partenaire de diffusion ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Contactez-nous via le formulaire de partenariat sur notre site web.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        Quel est le rôle des animateurs.trices ou modérateur.trices ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Ils faciliteront l'échange entre la personnalité invitée et l'assemblée.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingNine">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        Quelles activités accompagneront les rencontres ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Des déclamations de poèmes, témoignages, slams, et performances musicales.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTen">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        Le projet est-il ouvert à des contributions ?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionFAQ">
+                                <div class="card-body">
+                                    Oui, nous accueillons volontiers les contributions des artistes locaux et des partenaires intéressés. Contactez-nous pour plus d’informations.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+        
+    <footer class="">
+        <div class="container-fluid bg-dark text-white">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="font-weight mt-3"><img src="img/vc2.png" alt=""></h2>
+                    <p class="mt-4">S'organiser avec  des gens pour transformer leur vie et dégager une impression positive.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-3 text-center">
+                    <h2 class="font-weight-bold">Être impliqué</h2>
+                    <ul class="list-unstyled">
+                        <li>À propos de nous</li>
+                        <li>Devevenir participant</li>
+                        <li>evenement</li>
+                        <li>Projets</li>
+                        <li>Équipe</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2 class="font-weight-bold">Utilitaire</h2>
+                    <ul class="list-unstyled">
+                        <li>evenement</li>
+                        <li>Licences</li>
+                        <li>contact</li>
+                        <li>404 pages</li>
+                        <li>Journal des modifications</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2 class="font-weight-bold">Contact</h2>
+                    <p>saint  quartier belge Saint-Louis<br>
+                        aide Need@walfare.com<br>
+                        222 888 0000</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-center bg-dark text-white">
+                    <div class="row">
+                        <div class="col">
+
+                            <img src="img/IS.png" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="img/FS.png" alt="">
+
+                        </div>
+                        <div class="col">
+                            <img src="img/SK.png" alt="">
+                        </div>
+                        <div class="col">
+                            <img src="img/PIN.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0">Droits d'auteur © Ecole221 | Conçu par ASINYO ET DIARRA</p>
+        </footer>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    
+    </html>
